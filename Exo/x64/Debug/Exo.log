@@ -1,0 +1,14 @@
+﻿x64\Debug\Alive.obj : warning LNK4042: objet spécifié plus d'une fois ; définitions supplémentaires ignorées
+x64\Debug\Vector2.obj : warning LNK4042: objet spécifié plus d'une fois ; définitions supplémentaires ignorées
+Entity.obj : error LNK2019: symbole externe non résolu "public: void __cdecl Vector2::setX(float)" (?setX@Vector2@@QEAAXM@Z) référencé dans la fonction "public: virtual void __cdecl Entity::setPosition(float,float)" (?setPosition@Entity@@UEAAXMM@Z)
+mob.obj : error LNK2001: symbole externe non résolu "public: void __cdecl Vector2::setX(float)" (?setX@Vector2@@QEAAXM@Z)
+Player.obj : error LNK2001: symbole externe non résolu "public: void __cdecl Vector2::setX(float)" (?setX@Vector2@@QEAAXM@Z)
+Entity.obj : error LNK2019: symbole externe non résolu "public: void __cdecl Vector2::setY(float)" (?setY@Vector2@@QEAAXM@Z) référencé dans la fonction "public: virtual void __cdecl Entity::setPosition(float,float)" (?setPosition@Entity@@UEAAXMM@Z)
+mob.obj : error LNK2001: symbole externe non résolu "public: void __cdecl Vector2::setY(float)" (?setY@Vector2@@QEAAXM@Z)
+Player.obj : error LNK2001: symbole externe non résolu "public: void __cdecl Vector2::setY(float)" (?setY@Vector2@@QEAAXM@Z)
+Exo.obj : error LNK2019: symbole externe non résolu "public: bool __cdecl World::isSimulationFinished(void)const " (?isSimulationFinished@World@@QEBA_NXZ) référencé dans la fonction main
+mob.obj : error LNK2019: symbole externe non résolu "public: float __cdecl Vector2::getX(void)const " (?getX@Vector2@@QEBAMXZ) référencé dans la fonction "public: __cdecl Mob::Mob(float,float,float,class Vector2 const &,float)" (??0Mob@@QEAA@MMMAEBVVector2@@M@Z)
+Player.obj : error LNK2001: symbole externe non résolu "public: float __cdecl Vector2::getX(void)const " (?getX@Vector2@@QEBAMXZ)
+mob.obj : error LNK2019: symbole externe non résolu "public: float __cdecl Vector2::getY(void)const " (?getY@Vector2@@QEBAMXZ) référencé dans la fonction "public: __cdecl Mob::Mob(float,float,float,class Vector2 const &,float)" (??0Mob@@QEAA@MMMAEBVVector2@@M@Z)
+Player.obj : error LNK2001: symbole externe non résolu "public: float __cdecl Vector2::getY(void)const " (?getY@Vector2@@QEBAMXZ)
+C:\Users\enunes\Documents\GitHub\Exo\x64\Debug\Exo.exe : fatal error LNK1120: 5 externes non résolus
